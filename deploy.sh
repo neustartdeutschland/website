@@ -13,7 +13,7 @@ cd dist
 echo 'neustart-deutschland.com' > CNAME
 
 git init
-git checkout -b main
+git checkout -b deploy
 git add -A
 git commit -m 'deploy'
 
