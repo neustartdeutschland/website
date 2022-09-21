@@ -1,0 +1,22 @@
+@import "https://fontlibrary.org/face/free-grotesque-web-font";
+@import "https://fontlibrary.org/face/exo-2-new";
+
+@import "./bootstrap.scss";
+
+body {
+    background: linear-gradient(135deg, #336699 0%, #339999 100%);
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    // row-gap: 4em;
+    // padding-top: 4em;
+    // padding-bottom: 4em;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
