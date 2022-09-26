@@ -3,9 +3,9 @@
 
         <SiteSection class="border-top">
             <h2 class="section-title fs-5">Die Politik hat versagt!</h2>
-            <p>Es ist höchste Zeit zu erkennen, dass diese Regierung nicht zum Wohle unseres Volkes regiert. Sie katapultiert die Deutschen in eine Sackgasse von Armut und Enteignung, ideologiegesteuerter Bevormundung, einem selbst&szlig;zerstörerischen Klimadiktat und der Ausbeutung unseres Sozialsystems durch ungebremste Masseneinwanderung.</p>
+            <p>Es ist höchste Zeit zu erkennen, dass diese Regierung nicht zum Wohle unseres Volkes regiert. Sie katapultiert die Deutschen in eine Sackgasse von Armut und Enteignung, ideologiegesteuerter Bevormundung, einem selbst&shy;zerstörerischen Klimadiktat und der Ausbeutung unseres Sozialsystems durch ungebremste Masseneinwanderung.</p>
             <h2 class="section-title fs-5">Visionen einer lebenswerten Zukunft!</h2>
-            <p>Es ist Zeit für neue Visionen einer lebenswerten Zukunft – abseits von gleichgeschalteten Medien, inkompetenten Politikern, fehlgeleiteten Groß&szlig;projekten zur Verstümmelung der deutschen Sprache und einer destruktiven Energie- und Außenpolitik gegen das eigene Volk.</p>
+            <p>Es ist Zeit für neue Visionen einer lebenswerten Zukunft – abseits von gleichgeschalteten Medien, inkompetenten Politikern, fehlgeleiteten Groß&shy;projekten zur Verstümmelung der deutschen Sprache und einer destruktiven Energie- und Außenpolitik gegen das eigene Volk.</p>
         </SiteSection>
 
         <SiteSection class="border-top">
