@@ -3,6 +3,8 @@
 # abort on errors
 set -e
 
+rm -rf dist
+
 # build
 npm run build
 
@@ -10,7 +12,7 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-echo 'neustart-deutschland.com' > CNAME
+echo 'www.neustart-deutschland.com' > CNAME
 
 git init
 git checkout -b main

@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neustart für Deutschland</title>
-  </head>
-  <body>
-    <script type="text/javascript">
-        (function(window, document, dataLayerName, id) {
-        window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
-        function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
-        var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
-        var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
-        tags.async=!0,tags.src="https://neustart-deutschland.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
-        !function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
-        })(window, document, 'dataLayer', '3291ee7b-89bb-4104-bdd9-2fb763b6666f');
-    </script>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Es ist Zeit für neue Visionen einer lebenswerten Zukunft – abseits von gleichgeschalteten Medien, inkompetenten Politikern, fehlgeleiteten Groß-projekten zur Verstümmelung der deutschen Sprache und einer destruktiven Energie- und Außenpolitik gegen das eigene Volk.">
+        <meta property="og:title" content="Neustart für Deutschland">
+        <meta property="og:url" content="https://www.neustart-deutschland.com">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="/og-image.png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Neustart für Deutschland">
+        <meta name="twitter:description" content="Es ist Zeit für neue Visionen einer lebenswerten Zukunft – abseits von gleichgeschalteten Medien, inkompetenten Politikern, fehlgeleiteten Groß-projekten zur Verstümmelung der deutschen Sprache und einer destruktiven Energie- und Außenpolitik gegen das eigene Volk.">
+        <meta name="twitter:image" content="/og-image.png">
+        <title>Neustart für Deutschland</title>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    </head>
+    <body>
+        <div id="app"></div>
+        <script type="module" src="/src/main.js"></script>
+        <script async src="//static.getclicky.com/101381308.js"></script>
+        <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101381308ns.gif" /></p></noscript>
+    </body>
 </html>

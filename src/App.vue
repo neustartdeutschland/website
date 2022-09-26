@@ -10,7 +10,16 @@ import SiteFooter from './components/SiteFooter.vue'
 <template>
     <SiteHeader></SiteHeader>
     <SiteMain></SiteMain>
-    <SiteFooter></SiteFooter>
+    <!--<SiteFooter></SiteFooter>-->
 </template>
 
-<style scoped></style>
+<style lang="scss">
+.svg-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: currentColor;
+}
+</style>
